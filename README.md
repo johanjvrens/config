@@ -7,6 +7,11 @@ Opinionated configuration files
 * .prettierrc
 * .prettierignore
 
-## [Eslint]()
+## [Eslint](https://eslint.org/)
 
 * .eslintrc
+* .eslintignore
+
+## [EditorConfig](https://editorconfig.org)
+
+* .editorconfig

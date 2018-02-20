@@ -1,16 +1,24 @@
-# indicate this is the root of the project
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
 root = true
 
 [*]
-indent_style = space
-end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = true
+#indentation
+indent_style = space
 indent_size = 2
+#line breaks
+end_of_line = lf
+#whitespace
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 100
+
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
 
 [*.html]
 indent_size = 4
 max_line_length = 80
-
-[*.md]
-trim_trailing_whitespace = false
