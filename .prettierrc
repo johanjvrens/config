@@ -1,8 +1,26 @@
 {
-  "printWidth'": 120,
-  "singleQuote": true,
-  "useTabs": false,
+  "printWidth'": 100,
   "tabWidth": 2,
-  "semi": true,
-  "bracketSpacing": true
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "bracketSpacing": false,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "parser": "babylon",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.test.js",
+      "options": {
+        "semi": true
+      }
+    }
+  ]
 }
