@@ -6,3 +6,7 @@ Opinionated configuration files
 
 * .prettierrc
 * .prettierignore
+
+## [Eslint]()
+
+* .eslintrc
