@@ -15,3 +15,8 @@ Opinionated configuration files
 ## [EditorConfig](https://editorconfig.org)
 
 * .editorconfig
+
+## [Node & npm](https://npm.org)
+
+* .npmrc
+* .package.json

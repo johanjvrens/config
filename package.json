@@ -1,9 +1,11 @@
 {
   "scripts": {
+    "prestart": "$npm_execpath install",
+    "start": "nodemon ./src/server.js --ignore lib --exec babel-node",
+    "test": "eslint src && jest --coverage",
     "format:fix": "pretty-quick --staged",
-    "format:check":
-      "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
-    "precommit": "run-s format:fix lint",
-    "lint": "ng lint"
+    "format:check": "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
+    "precommit": "$npm_execpath format:fix test",
+    "prepush": "$npm_execpath test"
   }
 }
