@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-vscode.atom-keybindings",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "deerawan.vscode-dash",
+    "EditorConfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "HookyQR.beautify"
+  ]
+}
